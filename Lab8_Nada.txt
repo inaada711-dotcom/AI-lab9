@@ -1,0 +1,39 @@
+55 ?- consult(['c:/Users/inaad/Downloads/Lab8.pl']).
+true.
+
+55 ?- logicGate(true,  true,  O).
+O = true.
+
+56 ?- logicGate(true,  false, O).
+O = false.
+
+57 ?- logicGate(false, true,  O).
+O = false.
+
+58 ?- logicGate(false, false, O).
+O = true.
+
+59 ?- sumlist([1,2,5,7], S).
+S = 15.
+
+60 ?- sumlist([], S).
+S = 0.
+
+61 ?- sumlist([1,2,5,7], 15).
+true.
+
+62 ?- total_avg.
+Enter first number: 4.
+Enter second number: |: 5.
+Enter third number: |: 8.
+Total = 17
+Average = 5.666666666666667
+true.
+
+62 ?- total_avg.
+Enter first number: 2.
+Enter second number: |: 3.
+Enter third number: |: 6.
+Total = 11
+Average = 3.6666666666666665
+true.
